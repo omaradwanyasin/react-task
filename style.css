@@ -97,3 +97,39 @@ body {
 .biotxt2 {
   width: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .skillcont {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .bio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  .biotxt {
+    width: 50%;
+    margin: auto;
+  }
+  .biotxt2 {
+    width: 50%;
+    margin: auto;
+  }
+}
